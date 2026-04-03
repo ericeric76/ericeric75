@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <title>Biodata Mahasiswa - Eric</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="fade-in-down">
+    <div class="logo">
+      Profil Eric
+    </div>
+
+    <button class="toggle-btn" onclick="toggleDarkMode()">Mode Gelap</button>
+  </header>
+
+  <div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar fade-in-down">
+
+  <div class="sidebar-profile">
+    <img src="fotoeric3.jpeg" alt="Profile">
+    <h3>Eric</h3>
+    
+    <div class="profile-details">
+        <span class="status-role">Mahasiswa</span>
+        
+        <div class="profile-line"></div>
+        
+        <span class="status-major">Sistem Informasi</span>
+    </div>
+  </div>
+
+  <div class="sidebar-divider"></div>
+
+  <div class="nav-section">
+    <div class="menu-title">Menu Navigasi</div>
+    <nav class="sidebar-menu">
+  <a href="#beranda">Beranda</a>
+  <a href="#tentang">Tentang</a>
+  <a href="#profil-umum">Profil Umum</a></li>
+  <a href="#profil-mahasiswa">Profil Mahasiswa</a>
+  <a href="#pendidikan">Pendidikan</a>
+  <a href="#kepribadian">Kepribadian</a> <a href="#cara-belajar">Cara Belajar</a>
+  <a href="#perkembangan-diri">Perkembangan Diri</a>
+  <a href="#sertifikat">Sertifikat</a>
+  <a href="#wireframe">Wireframe</a>
+</nav>
+  </div>
+
+  <div class="sidebar-divider"></div>
+
+  <div class="nav-section">
+  <div class="menu-title">Kontak Saya</div>
+  <nav class="sidebar-contact">
+    
+    <a href="mailto:eeric3255@gmail.com" target="_blank" title="Gmail Saya">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail">
+    </a>
+    
+    <a href="https://wa.me/6281261125713" target="_blank" title="WhatsApp Saya">
+      <i class="fab fa-whatsapp" style="color: #25D366;"></i>
+    </a>
+    
+    <a href="https://instagram.com/l.e75_" target="_blank" title="Instagram Saya">
+      <i class="fab fa-instagram" style="color: #E1306C;"></i>
+    </a>
+    
+  </nav>
+</div>
+
+</aside>
+
+  <!-- KONTEN TENGAH -->
+  <main class="container">
+
+  <section id="beranda" class="hero-top fade-in-down delay-2">
+    <div class="hero-photo-card carousel-container">
+    <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+    
+    <div class="carousel-track">
+        <div class="slide"><img src="fotoericeric3.jpeg"></div>
+        <div class="slide"><img src="fotoericeric4.jpeg"></div>
+        <div class="slide"><img src="fotoericeric2.jpeg"></div>
+        <div class="slide"><img src="fotoericeric5.jpeg"></div>
+        <div class="slide"><img src="fotoericeric1.jpeg"></div>
+    </div>
+    
+    <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+  </section>
+
+  <section id="tentang" class="fade-in-down delay-5">
+  <h2 class="section-title" style="text-align: center; display: block; width: 100%;"> 📝 Tentang </h2>
+
+  <div class="card about-card">
+    <p class="text">
+      Saya adalah seorang mahasiswa yang sedang belajar pemrograman dan memiliki ketertarikan di bidang Web Development. Saya senang mencoba hal-hal baru, terutama dalam dunia teknologi, serta menikmati proses belajar desain UI/UX dan pengembangan web. 
+    </p>
+  </div>
+</section>
+
+
+
+<section id="profil-umum" class="fade-in-down delay-3">
+  <h2 class="section-title">👤 Profil Umum </h2>
+  <div class="card"> 
+    <div class="table-container">
+      <table class="grid-table">
+        <tr>
+          <td class="col-label">Nama</td>
+          <td class="col-value">Eric</td>
+        </tr>
+        <tr>
+          <td class="col-label">Nama Panggilan</td>
+          <td class="col-value">Ric</td>
+        </tr>
+        <tr>
+          <td class="col-label">Jenis Kelamin</td>
+          <td class="col-value">Laki-laki</td>
+        </tr>
+        <tr>
+          <td class="col-label">Tempat/Tgl Lahir</td>
+          <td class="col-value">Tanjung Balai Karimun, 13 Juni 2007</td>
+        </tr>
+        <tr>
+          <td class="col-label">Usia</td>
+          <td class="col-value">18 Tahun</td>
+        </tr>
+        <tr>
+          <td class="col-label">Agama</td>
+          <td class="col-value">Buddha</td>
+        </tr>
+        <tr>
+          <td class="col-label">Kewarganegaraan</td>
+          <td class="col-value">Indonesia</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+  <section id="profil-mahasiswa" class="fade-in-down delay-4">
+  <h2 class="section-title">🎓 Profil Mahasiswa</h2>
+  <div class="card">
+    <div class="table-container">
+      <table class="grid-table">
+        <tr>
+          <td class="col-label">NPM</td>
+          <td class="col-value">2531069</td>
+        </tr>
+        <tr>
+          <td class="col-label">Universitas</td>
+          <td class="col-value">Universitas Internasional Batam</td>
+        </tr>
+        <tr>
+          <td class="col-label">Fakultas</td>
+          <td class="col-value">Ilmu Komputer</td>
+        </tr>
+        <tr>
+          <td class="col-label">Program Studi</td>
+          <td class="col-value">Sistem Informasi</td>
+        </tr>
+        <tr>
+          <td class="col-label">Angkatan</td>
+          <td class="col-value">2025</td>
+        </tr>
+        <tr>
+          <td class="col-label">Semester</td>
+          <td class="col-value">2</td>
+        </tr>
+        <tr>
+          <td class="col-label">Status</td>
+          <td class="col-value">Mahasiswa Aktif</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+  <section id="pendidikan" class="fade-in-down delay-4">
+    <h2 class="section-title">📚 Pendidikan </h2>
+    <div class="card">
+      <table class="education-table">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Pendidikan</th>
+            <th>Tahun</th>
+            <th>Keterangan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>TK Maha Bodhi</td><td>2011 - 2013</td><td>Lulus</td></tr>
+          <tr><td>2</td><td>SD Maha Bodhi</td><td>2013 - 2019</td><td>Lulus</td></tr>
+          <tr><td>3</td><td>SMP Maha Bodhi</td><td>2019 - 2022</td><td>Lulus</td></tr>
+          <tr><td>4</td><td>SMA Maha Bodhi</td><td>2022 - 2025</td><td>Lulus</td></tr>
+          <tr><td>5</td><td>Universitas Internasional Batam</td><td>2025 - Sekarang</td><td>Proses</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="kepribadian" class="fade-in-down delay-5">
+    <h2 class="section-title">⚡ Kepribadian</h2>
+    <div class="card">
+      <div class="kepribadian-grid">
+        <div class="kp-item">🧭 Disiplin dalam belajar dan pekerjaan</div>
+        <div class="kp-item">🌱 Suka mempelajari hal baru</div>
+        <div class="kp-item">📌 Teliti dalam menyelesaikan tugas</div>
+        <div class="kp-item">🔄 Mudah beradaptasi dan tanggap</div>
+        <div class="kp-item center">🚀 Konsisten dalam mengembangkan diri</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cara-belajar" class="fade-in-down delay-5">
+    <h2 class="section-title">🧠 Cara Belajar </h2>
+    <div class="card">
+      <p>Saya biasanya mencatat poin-poin penting terlebih dahulu saat mendengarkan materi dari dosen. Setelah itu, saya akan mencari kembali penjelasan di internet, menonton tutorial, dan mempelajari contoh-contohnya agar lebih paham. Kemudian, saya mencoba mempraktikkan langsung apa yang sudah dipelajari dengan membuat latihan atau project kecil supaya lebih mudah dipahami dan diingat.</p>
+    </div>
+  </section>
+
+  <section id="perkembangan-diri" class="fade-in-down delay-5">
+    <h2 class="section-title">🚀 Perkembangan Diri </h2>
+    <div class="card">
+      <p>Saat ini saya sedang fokus mengembangkan kemampuan di bidang Web Development, khususnya HTML, CSS, dan JavaScript, serta memperdalam pemahaman dalam desain UI/UX.</p>
+      <p style="margin-top: 10px;">Selain itu, saya juga sedang meningkatkan soft skill seperti public speaking serta kemampuan bahasa asing (Inggris & Mandarin) guna mendukung komunikasi di lingkungan global.</p>
+    </div>
+  </section>
+
+  <section id="sertifikat" class="fade-in-down delay-5">
+
+  <h2 class="section-title">🏆 Sertifikat</h2>
+
+
+
+  <div class="achievement-container">
+
+
+
+    <div class="achievement-card">
+
+      <h3>Studium Generale: AI-Powered Intelligent Hyper Democracy</h3>
+
+      <p>📅 13 September 2025</p>
+
+      <button onclick="downloadAchievement('sertifikat4.jpg')">
+
+        Lihat Achievement
+
+      </button>
+
+    </div>
+
+
+
+    <div class="achievement-card">
+
+      <h3>Smart with AI Tools, Strong with Soft Skills</h3>
+
+      <p>📅 20 September 2025</p>
+
+      <button onclick="downloadAchievement('sertifikat1.jpg')">
+
+        Lihat Achievement
+
+      </button>
+
+    </div>
+
+
+
+    <div class="achievement-card">
+
+      <h3>Webinar Arsitektur Hijau dan Efisiensi Energi: Solusi Desain untuk Tantangan Iklim Global</h3>
+
+      <p>📅 25 September 2025</p>
+
+      <button onclick="downloadAchievement('sertifikat2.jpg')">
+
+        Lihat Achievement
+
+      </button>
+
+    </div>
+
+
+
+    <div class="achievement-card">
+
+      <h3>Seminar The Translator in the Age of AI: Precision, Ethics, and Opportunity for the Next Generation</h3>
+
+      <p>📅 8 Oktober 2025</p>
+
+      <button onclick="downloadAchievement('sertifikat3.jpg')">
+
+        Lihat Achievement
+
+      </button>
+
+    </div>
+
+
+
+  </div>
+
+</section>
+
+  <section id="wireframe" class="fade-in-down delay-5">
+    <h2 class="section-title">🎨 Wireframe </h2>
+    <div class="card">
+      <p class="wireframe-text">Klik tombol di bawah untuk melihat file wireframe dari web biodata saya:</p>
+<a href="c:\Users\USER\Downloads\eric 2531069 file wireframe (figma).pdf" target="_blank" class="btn-wireframe">🔗 Lihat Wireframe</a>
+    </div>
+  </section>
+
+</main>
+<!-- SIDEBAR KANAN -->
+<aside class="sidebar-right fade-in-down delay-2">
+
+<div class="right-card fade-in-down delay-3">
+<h3>Skill</h3>
+
+<p>HTML <span class="skill-percent">35%</span></p>
+<div class="bar"><div class="fill" style="width:35%"></div></div>
+
+<p>CSS <span class="skill-percent">25%</span></p>
+<div class="bar"><div class="fill" style="width:25%"></div></div>
+
+<p>JavaScript <span class="skill-percent">30%</span></p>
+<div class="bar"><div class="fill" style="width:30%"></div></div>
+
+<p>Python <span class="skill-percent">40%</span></p>
+<div class="bar"><div class="fill" style="width:40%"></div></div>
+
+<p>UI/UX <span class="skill-percent">35%</span></p>
+<div class="bar"><div class="fill" style="width:35%"></div></div>
+
+<p>MySQL <span class="skill-percent">30%</span></p>
+<div class="bar"><div class="fill" style="width:30%"></div></div>
+</div>
+
+<div class="right-divider"></div>
+
+<div class="right-card fade-in-down delay-3">
+  <h3>Proyek</h3>
+
+  <div class="right-track-bar"><span>💻 Website Biodata</span></div>
+  <div class="right-track-bar"><span>🎨 Konten Multimedia</span></div>
+  <div class="right-track-bar"><span>🕹️ Game Interaktif</span></div>
+</div>
+
+<div class="right-divider"></div>
+
+<div class="right-card fade-in-down delay-4">
+  <h3>Hobi</h3>
+
+  <div class="right-track-bar"><span>📚 Belajar</span></div>
+  <div class="right-track-bar"><span>🎮 Main Game</span></div>
+  <div class="right-track-bar"><span>🎧 Dengar Musik</span></div>
+</div>
+
+<div class="right-divider"></div>
+
+<div class="right-card fade-in-down delay-5">
+  <h3>Fakta Menarik</h3>
+
+  <div class="right-track-bar"><span>🏃 Suka jalan malam-malam</span></div>
+  <div class="right-track-bar"><span>☕ Penikmat kopi saat santai</span></div>
+  <div class="right-track-bar"><span>🤖 Suka belajar teknologi baru</span></div>
+</div>
+
+<div class="right-divider"></div>
+
+<div class="right-card fade-in-down delay-6">
+  <h3>Kutipan</h3>
+  <div class="right-track-bar">
+    <span>"Terus berkembang dan belajar."</span>
+  </div>
+</div>
+
+</aside>
+</div>
+
+  <footer>
+    © 2026 - Eric | Dibuat dengan HTML, CSS, dan JavaScript
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
